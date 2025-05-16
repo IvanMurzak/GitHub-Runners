@@ -13,9 +13,9 @@ It is ready to go setup with minimal required modification to launch it.
 4. Modify `GITHUB_REPOSITORY` in the file `.env` to your repository path.
 5. Launch
    ```bash
-   docker-compose -f Linux up
-   docker-compose -f Windows up
-   docker-compose -f MacOS up
+   docker-compose -f docker-compose-Linux.yml up
+   docker-compose -f docker-compose-Windows.yml up
+   docker-compose -f docker-compose-MacOS.yml up
    ```
 
 ## Customization
