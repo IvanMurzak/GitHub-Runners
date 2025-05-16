@@ -19,3 +19,7 @@ It is ready to go setup with minimal required modification to launch it.
 ## Customization
 
 - Feel free to modify docker-compose files in any way you need.
+- Scale instances amount
+   ```bash
+   docker-compose up -d --scale github-runner=6
+   ```
